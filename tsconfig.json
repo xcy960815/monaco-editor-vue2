@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "declaration": true,
+    "declarationDir": "./temp",
+    "outDir": "./",
+    "strict": true,
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom"],
+    "jsx": "preserve"
+  },
+  "files": ["src/index.ts", "src/monaco-editor-vue2.vue", "src/snippets.ts", "src/type.ts"],
+  "include": ["src/**/*.ts", "src/**/*.vue", "examples/main.ts"],
+  "exclude": ["node_modules"]
+}
