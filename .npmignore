@@ -1,0 +1,12 @@
+node_modules/
+example/
+src/
+tem/
+.babelrc
+.gitignore
+pageckage-lock.json
+rollup.config.js
+vue.config.js
+shims-vue.d.ts
+tsconfig.json
+pnpm-lock.yaml
